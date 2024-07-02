@@ -1,0 +1,552 @@
+{
+  "Bunker Usage Today": [
+    {
+      "shotNumber": "Shot 35",
+      "metadata": "abandoned_bunkers_modern_uses_001.MOV",
+      "searchTerm": "abandoned_bunkers_modern_uses_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664d024d22b3a3c97bf1b29",
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d024d22b3a3c97bf1b29/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093559Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=3fe39858de28246e28de6f527e401dc9f0cffac4864f07a17bbba37f0f146809",
+      "filename": "compressed_20220925-1038-C5804_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d023e6fb7df29de0f3d2/stream/c9234e5b-1bc5-4c24-abb4-ac7ea81ef550.m3u8"
+    },
+    {
+      "shotNumber": "Shot 36",
+      "metadata": "modern_uses_bunkers_001.MOV",
+      "searchTerm": "modern_uses_bunkers_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664c31fd22b3a3c97bf19f2",
+      "start_time": 0.0,
+      "end_time": 11.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664c31fd22b3a3c97bf19f2/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093601Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a24a3426827c13105f0a037d3b77603d8d90bb3610305177fa5d85ef15f0937a",
+      "filename": "compressed_20220925-0952-C5782_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664c31fe6fb7df29de0f1c4/stream/991aa374-32d1-45c9-9b51-4ea4034f356e.m3u8"
+    },
+    {
+      "shotNumber": "Shot 37",
+      "metadata": "Abandoned Bunkers Modern Uses",
+      "searchTerm": "Abandoned Bunkers Modern Uses",
+      "additionalNeeded": true,
+      "video_id": "6664d024d22b3a3c97bf1b29",
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d024d22b3a3c97bf1b29/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093602Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=aa63d12a528e4159843c859ac1bc99de9a988b7f34c836e23d7e44bbb0b8308d",
+      "filename": "compressed_20220925-1038-C5804_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d023e6fb7df29de0f3d2/stream/c9234e5b-1bc5-4c24-abb4-ac7ea81ef550.m3u8"
+    },
+    {
+      "shotNumber": "Shot 38",
+      "metadata": "Modern Uses Bunkers",
+      "searchTerm": "Modern Uses Bunkers",
+      "additionalNeeded": true,
+      "video_id": "6664d024d22b3a3c97bf1b29",
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d024d22b3a3c97bf1b29/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093604Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=6b602166b2c9f222923976c2e267a0a2cb4a3728e43fc58965b75c6d7359d3ce",
+      "filename": "compressed_20220925-1038-C5804_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d023e6fb7df29de0f3d2/stream/c9234e5b-1bc5-4c24-abb4-ac7ea81ef550.m3u8"
+    }
+  ],
+  "Chalet Bunker Hook Vignette": [
+    {
+      "shotNumber": "Shot 4",
+      "metadata": "lakeside_village_001.MOV",
+      "searchTerm": "lakeside_village_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664bc15d22b3a3c97bf193c",
+      "start_time": 23.266666666666666,
+      "end_time": 31.8,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664bc15d22b3a3c97bf193c/24.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093510Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=8951157dbc7c13ada35494a6bec622f1f68fc5daf631b1acccae41d6ac864860",
+      "filename": "compressed_20220924-0917-C5590_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664bc15e6fb7df29de0f038/stream/170263ff-536e-4077-aa46-71e684ff0ad7.m3u8"
+    },
+    {
+      "shotNumber": "Shot 5",
+      "metadata": "chalet_exterior_001.MOV",
+      "searchTerm": "chalet_exterior_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664cdb3d22b3a3c97bf1add",
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664cdb3d22b3a3c97bf1add/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093511Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=126c904706f3b207f8b51ef014d8142f60ffb0685064be1358ca6f44b193bb7e",
+      "filename": "compressed_20220920-0954-C5464_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664cdb3913827e5316d5469/stream/64a63a98-1d70-43ec-b666-b4b49dba2ff5.m3u8"
+    },
+    {
+      "shotNumber": "Shot 6",
+      "metadata": "doors_gun_001.MOV",
+      "searchTerm": "doors_gun_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664ce69d22b3a3c97bf1aed",
+      "start_time": 44.0,
+      "end_time": 69.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664ce69d22b3a3c97bf1aed/45.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093512Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7fad6e37f3b2fa2f5c4e2c1f41e079397f6d5dbb72f785adab595ef227606156",
+      "filename": "compressed_20220924-0930-C5594_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664ce68e6fb7df29de0f37b/stream/c7b86fb6-9faa-49cd-808f-b6607e2d33bf.m3u8"
+    },
+    {
+      "shotNumber": "Shot 7",
+      "metadata": "chalet_interior_gun_001.MOV",
+      "searchTerm": "chalet_interior_gun_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664d9e0d22b3a3c97bf1c3a",
+      "start_time": 519.0,
+      "end_time": 524.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d9e0d22b3a3c97bf1c3a/520.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093514Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=18c752ac1b8421dae7f8b6be5042382b7f28da8df535b3ad2270be8ee2bdcc41",
+      "filename": "compressed_20220924-0929-C5593_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d9dffa78353268100e46/stream/349ae43a-3173-4d20-b257-0fac2e6e2e5f.m3u8"
+    },
+    {
+      "shotNumber": "Shot 8",
+      "metadata": "Johnny Hiking Hard",
+      "searchTerm": "Johnny Hiking Hard",
+      "additionalNeeded": true,
+      "video_id": "6664bfffd22b3a3c97bf199d",
+      "start_time": 0.0,
+      "end_time": 11.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664bfffd22b3a3c97bf199d/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093515Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=c024b8137947a339a33c387f7cf93b69af6e9b1f27c5d41c929d2b16f32bbf9c",
+      "filename": "compressed_20220923-1015-C5549_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664bfffe6fb7df29de0f10a/stream/b56dbb46-2ef4-4e86-a45f-70d106f28a11.m3u8"
+    }
+  ],
+  "Civil Defense Bunkers in Cities": [
+    {
+      "shotNumber": "Shot 31",
+      "metadata": "city_bunkers_parliament_001.MOV",
+      "searchTerm": "city_bunkers_parliament_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664b90fd22b3a3c97bf18f4",
+      "start_time": 89.13333333333084,
+      "end_time": 91.66666666666404,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664b90fd22b3a3c97bf18f4/90.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093553Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7003a76ad6303304fc814a5f27b71835d916dc6b23b50cf978deba09cf846642",
+      "filename": "SwissDefense_1939_0006_resized.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664b90fe6fb7df29de0efc9/stream/8ec5b622-f3cc-4011-af4b-0138ea9537f5.m3u8"
+    },
+    {
+      "shotNumber": "Shot 32",
+      "metadata": "govt_funded_bunkers_001.MOV",
+      "searchTerm": "govt_funded_bunkers_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664c3f4d22b3a3c97bf1a03",
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664c3f4d22b3a3c97bf1a03/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093555Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=4bac2555fd4f127a59a0ba681c99017b9bb434df9b9a82d5d13fb9eb0135b889",
+      "filename": "compressed_20220924-0913-C5585_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664c3f4e6fb7df29de0f1eb/stream/52581271-b10f-49e7-a0a8-528480d6380d.m3u8"
+    },
+    {
+      "shotNumber": "Shot 33",
+      "metadata": "City Bunkers Parliamentary Footage",
+      "searchTerm": "City Bunkers Parliamentary Footage",
+      "additionalNeeded": true,
+      "video_id": "6664c926d22b3a3c97bf1a7c",
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664c926d22b3a3c97bf1a7c/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093556Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f6c9181cd5aeb2df0b304f611af46885c5e6f6c056f6108c059e273cfe721f12",
+      "filename": "compressed_20220925-1038-C5803_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664c926e6fb7df29de0f2aa/stream/5a8a5781-01d2-4e7b-ac1c-49e40a5a088b.m3u8"
+    },
+    {
+      "shotNumber": "Shot 34",
+      "metadata": "Schematics Blueprints Government-Funded Bunkers",
+      "searchTerm": "Schematics Blueprints Government-Funded Bunkers",
+      "additionalNeeded": true,
+      "video_id": "6664b402d22b3a3c97bf18e8",
+      "start_time": 152.64999999999384,
+      "end_time": 156.99999999999363,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664b402d22b3a3c97bf18e8/153.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093558Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=5b54f43bc681ed00720e9bd2d40e22ca808929ea769c117c6550ec697aecf07a",
+      "filename": "CivilDefenseExhibitionPromo_1964_resized.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664b402913827e5316d513f/stream/ec4686bd-de97-4cca-a11d-10bea68a4763.m3u8"
+    }
+  ],
+  "Gotthard Pass Explanation": [
+    {
+      "shotNumber": "Shot 19",
+      "metadata": "gotthard_pass_drone_001.MOV",
+      "searchTerm": "gotthard_pass_drone_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664becdd22b3a3c97bf1978",
+      "start_time": 140.5,
+      "end_time": 158.86,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664becdd22b3a3c97bf1978/141.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093533Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=015bd1d90936b510eb6ee1cd47556ae335088c8b4a71679b575a28a8a8123095",
+      "filename": "compressed_20220925-1332-C5876_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664becde6fb7df29de0f09e/stream/0b571c3b-7221-4eed-9b13-b5b33e441c20.m3u8"
+    },
+    {
+      "shotNumber": "Shot 20",
+      "metadata": "historical_maps_001.MOV",
+      "searchTerm": "historical_maps_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664b402d22b3a3c97bf18e8",
+      "start_time": 152.64999999999384,
+      "end_time": 156.99999999999363,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664b402d22b3a3c97bf18e8/153.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093535Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a9111c0f4c7ce4b8b4432e0d52603dfa7173e37b837ef318d5b07782b6aca0dd",
+      "filename": "CivilDefenseExhibitionPromo_1964_resized.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664b402913827e5316d513f/stream/ec4686bd-de97-4cca-a11d-10bea68a4763.m3u8"
+    },
+    {
+      "shotNumber": "Shot 21",
+      "metadata": "Drone Shot Gotthard Pass",
+      "searchTerm": "Drone Shot Gotthard Pass",
+      "additionalNeeded": true,
+      "video_id": "6664d89ed22b3a3c97bf1c1a",
+      "start_time": 7.883333333333333,
+      "end_time": 17.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d89ed22b3a3c97bf1c1a/8.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093536Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=c13e8056126d42c575633e5711fcf7c703bf2d7ef0754f94f67e9fe1d16ae096",
+      "filename": "compressed_20220925-1305-C5871_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d89efa78353268100e00/stream/35497aa5-c8f5-4eb5-acf0-2c17716aa587.m3u8"
+    },
+    {
+      "shotNumber": "Shot 22",
+      "metadata": "Historical Maps",
+      "searchTerm": "Historical Maps",
+      "additionalNeeded": true,
+      "video_id": "6664b71ed22b3a3c97bf18ee",
+      "start_time": 152.64999999999384,
+      "end_time": 156.99999999999363,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664b71ed22b3a3c97bf18ee/153.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093538Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9175520ac75f36a359c62639ad6c5fc55a7c09ed93b128a782940dbe660c7c9b",
+      "filename": "CivilDefenseExhibitionPromo_1964_resized.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664b71d913827e5316d5153/stream/00c751fc-18af-4042-9011-21a619bef77d.m3u8"
+    }
+  ],
+  "Hook Vignette Continuation": [
+    {
+      "shotNumber": "Shot 9",
+      "metadata": "bunkers_mountains_forest_001.MOV",
+      "searchTerm": "bunkers_mountains_forest_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664d04cd22b3a3c97bf1b31",
+      "start_time": 3.466666666666667,
+      "end_time": 15.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d04cd22b3a3c97bf1b31/4.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093517Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a410c49c7757463dc57e1649ab93dd74c3038e75f355059640dc1c939f78feac",
+      "filename": "compressed_20220926-1432-C6053_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d04c913827e5316d54fc/stream/376f196e-24a2-48d0-bdd7-388cf42b51f4.m3u8"
+    },
+    {
+      "shotNumber": "Shot 10",
+      "metadata": "Bunkers Mountains Forests Villages",
+      "searchTerm": "Bunkers Mountains Forests Villages",
+      "additionalNeeded": true,
+      "video_id": "6664abfcd22b3a3c97bf189a",
+      "start_time": 824.0333333332412,
+      "end_time": 836.766666666563,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664abfcd22b3a3c97bf189a/825.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093518Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=b2894a8c8e7edb012fabebed81b9738139b3e296cf636c91b5e800d48e1b0f5e",
+      "filename": "PeaceLovingSwitzerland.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664abfce6fb7df29de0ef52/stream/15b68383-aae6-4da4-ab2a-b2d6a409cc0b.m3u8"
+    }
+  ],
+  "Introduction and Hook Vignette": [
+    {
+      "shotNumber": "Shot 1",
+      "metadata": "intro_texture.mov",
+      "searchTerm": "intro_texture.mov",
+      "additionalNeeded": false,
+      "video_id": "6664abf8d22b3a3c97bf1898",
+      "start_time": 15.966666666666828,
+      "end_time": 25.900000000000485,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664abf8d22b3a3c97bf1898/16.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093503Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9bc0830564ba2c5071967909e66b0e5acb17e76073d6b7c21e78789a71e61b32",
+      "filename": "Switzerland, 1951.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664abf7e6fb7df29de0ef4f/stream/8d535d89-a7b1-4651-8e64-79832e703927.m3u8"
+    },
+    {
+      "shotNumber": "Shot 2",
+      "metadata": "20220924-1135-C5634.MP4",
+      "searchTerm": "20220924-1135-C5634.MP4",
+      "additionalNeeded": false,
+      "video_id": "6664d469d22b3a3c97bf1bb8",
+      "start_time": 32.0,
+      "end_time": 62.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d469d22b3a3c97bf1bb8/33.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093505Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=cfb23918e1ff1f5fac6520bc8d2e75003a00c13db446c71ec219c398ce5ebb8d",
+      "filename": "compressed_20220926-1224-C6009_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d469e6fb7df29de0f4a2/stream/3234ff29-fe20-4d34-af6c-20abd3b2e9e1.m3u8"
+    },
+    {
+      "shotNumber": "Shot 3",
+      "metadata": "Intro Texture Mountains Hiking",
+      "searchTerm": "Intro Texture Mountains Hiking",
+      "additionalNeeded": true,
+      "video_id": "6664abfcd22b3a3c97bf189a",
+      "start_time": 0.0,
+      "end_time": 7.533333333333316,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664abfcd22b3a3c97bf189a/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093507Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=27928d96df338b9b6f54cfa035d2fea5d85140fbfd857d9e1bf981d1a953f294",
+      "filename": "PeaceLovingSwitzerland.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664abfce6fb7df29de0ef52/stream/15b68383-aae6-4da4-ab2a-b2d6a409cc0b.m3u8"
+    }
+  ],
+  "Obsessing Over Bunkers": [
+    {
+      "shotNumber": "Shot 11",
+      "metadata": "johnny_typing_001.MOV",
+      "searchTerm": "johnny_typing_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664be1ad22b3a3c97bf196a",
+      "start_time": 10.899999999999972,
+      "end_time": 15.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664be1ad22b3a3c97bf196a/11.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093520Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9992b2a4cf512eaa36ef9ecccdd218e7824ceac2c19388ca4101eb2e314764ef",
+      "filename": "NaN",
+      "video_url": "NaN"
+    },
+    {
+      "shotNumber": "Shot 12",
+      "metadata": "google_maps_academic_papers_001.MOV",
+      "searchTerm": "google_maps_academic_papers_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664d880d22b3a3c97bf1c14",
+      "start_time": 92.0,
+      "end_time": 134.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d880d22b3a3c97bf1c14/93.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093521Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9e051f397330f9ff0be820679882d218aff8938f9abec132308274dacddd9faf",
+      "filename": "compressed_20220927-1258-C6160_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d880e6fb7df29de0f51d/stream/232e16fa-591a-467b-9962-7c9d9d1f5ea9.m3u8"
+    },
+    {
+      "shotNumber": "Shot 13",
+      "metadata": "Johnny Desk Typing Researching",
+      "searchTerm": "Johnny Desk Typing Researching",
+      "additionalNeeded": true,
+      "video_id": "NaN",
+      "start_time": 0.0,
+      "end_time": 0.0,
+      "thumbnail_url": "NaN",
+      "filename": "NaN",
+      "video_url": "NaN"
+    },
+    {
+      "shotNumber": "Shot 14",
+      "metadata": "Google My Maps Academic Papers",
+      "searchTerm": "Google My Maps Academic Papers",
+      "additionalNeeded": true,
+      "video_id": "6664d531d22b3a3c97bf1bcd",
+      "start_time": 56.0,
+      "end_time": 67.07499999999999,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d531d22b3a3c97bf1bcd/57.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093524Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=ce36f382e0bba16ebaeb9789e398de8f4febd22bc13d762a1a52dfd5da3e358c",
+      "filename": "compressed_20220927-1343-C6165_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d530fa78353268100db3/stream/6b98fdea-0a39-4076-8621-ed08fc3e879f.m3u8"
+    }
+  ],
+  "Redoubt Oncam Explanation": [
+    {
+      "shotNumber": "Shot 27",
+      "metadata": "fortified_mountains_001.MOV",
+      "searchTerm": "fortified_mountains_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664abf8d22b3a3c97bf1898",
+      "start_time": 352.46666666673144,
+      "end_time": 358.93333333340325,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664abf8d22b3a3c97bf1898/353.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093546Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=414149233b0efca7bf7004e45a72ad8d41ba6e79234b7ea79c8cce132dd59ad4",
+      "filename": "Switzerland, 1951.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664abf7e6fb7df29de0ef4f/stream/8d535d89-a7b1-4651-8e64-79832e703927.m3u8"
+    },
+    {
+      "shotNumber": "Shot 28",
+      "metadata": "major_passes_maps_001.MOV",
+      "searchTerm": "major_passes_maps_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664b0a9d22b3a3c97bf18b0",
+      "start_time": 147.76666666666085,
+      "end_time": 168.699999999993,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664b0a9d22b3a3c97bf18b0/148.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093548Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=9b989fa7dd94919bec445f52c28dced4cfef6445bdcce9a329c8d299cdf54417",
+      "filename": "Y2Mate.is - Tide appears to be turning in Ukraine's war against Russia-R4wEybRr5SM-1080p-1659554263767.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664b0a8e6fb7df29de0ef7c/stream/2c159faa-66c1-4b79-8e7c-8a7d971b4523.m3u8"
+    },
+    {
+      "shotNumber": "Shot 29",
+      "metadata": "Fortified Swiss Mountains",
+      "searchTerm": "Fortified Swiss Mountains",
+      "additionalNeeded": true,
+      "video_id": "6664abf8d22b3a3c97bf1898",
+      "start_time": 352.46666666673144,
+      "end_time": 358.93333333340325,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664abf8d22b3a3c97bf1898/353.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093549Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=af021cb59d0703f95ad70352507ef3bf145448ff9c0e160279bc5304a1944afa",
+      "filename": "Switzerland, 1951.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664abf7e6fb7df29de0ef4f/stream/8d535d89-a7b1-4651-8e64-79832e703927.m3u8"
+    },
+    {
+      "shotNumber": "Shot 30",
+      "metadata": "Maps Major Passes",
+      "searchTerm": "Maps Major Passes",
+      "additionalNeeded": true,
+      "video_id": "6664d465d22b3a3c97bf1bb7",
+      "start_time": 80.16666666666663,
+      "end_time": 142.16666666666663,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d465d22b3a3c97bf1bb7/81.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093551Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=a5984e31580cbb08200fd9bc585f130b7a0daeab7edd2e6e480cf14181b8bd11",
+      "filename": "compressed_20220924-0947-C5604_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d465e6fb7df29de0f49f/stream/c86cc4ce-f0e7-4d27-a117-cd390e251537.m3u8"
+    }
+  ],
+  "Swiss Civil Defense": [
+    {
+      "shotNumber": "Shot 23",
+      "metadata": "bunker_schematics_001.MOV",
+      "searchTerm": "bunker_schematics_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664d204d22b3a3c97bf1b7f",
+      "start_time": 0.0,
+      "end_time": 14.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d204d22b3a3c97bf1b7f/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093539Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=0a207e7d57a85034f454bddf02d12a2122655f7af16cbd74f1eb1e75abafe354",
+      "filename": "compressed_20220924-0914-C5588_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d204913827e5316d55c5/stream/b175edba-766d-4f7b-b46a-f2a887dd233a.m3u8"
+    },
+    {
+      "shotNumber": "Shot 24",
+      "metadata": "swiss_civilian_bunkers_001.MOV",
+      "searchTerm": "swiss_civilian_bunkers_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664b9b9d22b3a3c97bf1903",
+      "start_time": 0.0,
+      "end_time": 14.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664b9b9d22b3a3c97bf1903/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093541Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=0f6899974d5754200220ca90d411bac68ee109d66c749251a149ab1ff530d18e",
+      "filename": "compressed_20220925-1234-C5865_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664b9b9913827e5316d5183/stream/4d4305c2-5e5d-4962-93b3-962e465cd923.m3u8"
+    },
+    {
+      "shotNumber": "Shot 25",
+      "metadata": "Schematics Blueprints Bunkers",
+      "searchTerm": "Schematics Blueprints Bunkers",
+      "additionalNeeded": true,
+      "video_id": "6664d786d22b3a3c97bf1c09",
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d786d22b3a3c97bf1c09/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093542Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=c02109bfe852c6c4520e7bd2e1509fa80dcfd17a0072b36e11988e2a87165683",
+      "filename": "compressed_20220925-1109-C5833_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d786e6fb7df29de0f4f1/stream/d0c94bc4-0e9c-4075-8353-15b29c28e339.m3u8"
+    },
+    {
+      "shotNumber": "Shot 26",
+      "metadata": "Swiss Civilian Bunkers Built",
+      "searchTerm": "Swiss Civilian Bunkers Built",
+      "additionalNeeded": true,
+      "video_id": "6664c926d22b3a3c97bf1a7c",
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664c926d22b3a3c97bf1a7c/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093544Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=430d801f58e62b2582d5493c2a4b2b3803fe963079046fb8796c7425d0ea11b2",
+      "filename": "compressed_20220925-1038-C5803_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664c926e6fb7df29de0f2aa/stream/5a8a5781-01d2-4e7b-ac1c-49e40a5a088b.m3u8"
+    }
+  ],
+  "Visiting Bunkers": [
+    {
+      "shotNumber": "Shot 15",
+      "metadata": "underground_bunker_001.MOV",
+      "searchTerm": "underground_bunker_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664ce10d22b3a3c97bf1ae2",
+      "start_time": 27.1,
+      "end_time": 38.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664ce10d22b3a3c97bf1ae2/28.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093525Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=01f859589e9352b81e06699b2c8989928dd2fd49cf71b8db04c00c5254b38d8d",
+      "filename": "compressed_20220926-1454-C6056_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664ce10e6fb7df29de0f364/stream/87287abe-ce85-4e4d-91e2-b882db7e7ca1.m3u8"
+    },
+    {
+      "shotNumber": "Shot 16",
+      "metadata": "ukraine_news_001.MOV",
+      "searchTerm": "ukraine_news_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664b1c4d22b3a3c97bf18bb",
+      "start_time": 234.73333333332255,
+      "end_time": 242.71666666665544,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664b1c4d22b3a3c97bf18bb/235.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093528Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=bdf7493d0a92cb22718c467870f39637da9e1a2e5dbfaeaeab039c02c60c6ccf",
+      "filename": "Y2Mate.is - Ukraine releases video of Russian helicopter being shot down-3a3PQgD-LrA-1080p-1659878126775.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664b1c4913827e5316d50d5/stream/643d5da4-c697-48fa-ad00-506f4cce4159.m3u8"
+    },
+    {
+      "shotNumber": "Shot 17",
+      "metadata": "Underground Bunker",
+      "searchTerm": "Underground Bunker",
+      "additionalNeeded": true,
+      "video_id": "6664d875d22b3a3c97bf1c12",
+      "start_time": 0.0,
+      "end_time": 12.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d875d22b3a3c97bf1c12/1.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093529Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=91e3ea804cef0abec2c4b6241bc0e1a1d706bbcd9f6d64f9cf53230d97e3fd32",
+      "filename": "compressed_20220925-1055-C5815_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d875e6fb7df29de0f519/stream/bad189df-ac6c-4e0c-adf1-4f7e1d603e06.m3u8"
+    },
+    {
+      "shotNumber": "Shot 18",
+      "metadata": "Ukraine News Footage",
+      "searchTerm": "Ukraine News Footage",
+      "additionalNeeded": true,
+      "video_id": "6664b1c4d22b3a3c97bf18bb",
+      "start_time": 78.93333333333148,
+      "end_time": 123.03333333332893,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664b1c4d22b3a3c97bf18bb/79.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093531Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=94e400b6de7226275200f0379bbf7341ca2b06897f233957a29e19f55eb8dc70",
+      "filename": "Y2Mate.is - Ukraine releases video of Russian helicopter being shot down-3a3PQgD-LrA-1080p-1659878126775.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664b1c4913827e5316d50d5/stream/643d5da4-c697-48fa-ad00-506f4cce4159.m3u8"
+    }
+  ],
+  "Conclusion": [
+    {
+      "shotNumber": "Shot 39",
+      "metadata": "johnny_hiking_bunkers_001.MOV",
+      "searchTerm": "johnny_hiking_bunkers_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664bea9d22b3a3c97bf1974",
+      "start_time": 15.941666666666666,
+      "end_time": 29.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664bea9d22b3a3c97bf1974/16.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093605Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=4b2aaaaca61a6b8f6fb6ea288391d29cdae3a764a7374b469858c31ace153ba5",
+      "filename": "compressed_20220925-0919-C5766_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664bea8913827e5316d5230/stream/88b017e0-726b-49bd-824e-e1fb77f8cd07.m3u8"
+    },
+    {
+      "shotNumber": "Shot 40",
+      "metadata": "johnny_interacting_bunkers_locals_001.MOV",
+      "searchTerm": "johnny_interacting_bunkers_locals_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664cad9d22b3a3c97bf1a91",
+      "start_time": 329.26,
+      "end_time": 337.519,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664cad9d22b3a3c97bf1a91/330.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093607Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=0003892d308ab40bfe26b0ac67b5a6d40ae2885a8521428661f2e74bf879042b",
+      "filename": "compressed_20220926-1657-C6076_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664cad9913827e5316d53fe/stream/9b22d9ac-71fd-4a03-aacd-b038f99d8e64.m3u8"
+    },
+    {
+      "shotNumber": "Shot 41",
+      "metadata": "swiss_defense_strategies_001.MOV",
+      "searchTerm": "swiss_defense_strategies_001.MOV",
+      "additionalNeeded": false,
+      "video_id": "6664c55ed22b3a3c97bf1a1b",
+      "start_time": 45.708,
+      "end_time": 54.319,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664c55ed22b3a3c97bf1a1b/46.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093609Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=652303b27438edfbe0cea20d004d61b6bbb506414eccce04e2a1097f4f551064",
+      "filename": "compressed_20220926-1118-C5952_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664c55ee6fb7df29de0f22e/stream/cee928a8-ea2d-4760-91b3-c99b8c3c83c8.m3u8"
+    },
+    {
+      "shotNumber": "Shot 42",
+      "metadata": "Johnny Hiking Finding Bunkers",
+      "searchTerm": "Johnny Hiking Finding Bunkers",
+      "additionalNeeded": true,
+      "video_id": "6664bea9d22b3a3c97bf1974",
+      "start_time": 15.941666666666666,
+      "end_time": 29.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664bea9d22b3a3c97bf1974/16.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093611Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=7d084b3640def92ebf4fcec314f5001700f0749aafd300fb9edf2783d04ea167",
+      "filename": "compressed_20220925-0919-C5766_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664bea8913827e5316d5230/stream/88b017e0-726b-49bd-824e-e1fb77f8cd07.m3u8"
+    },
+    {
+      "shotNumber": "Shot 43",
+      "metadata": "Johnny Interacting Bunkers Locals",
+      "searchTerm": "Johnny Interacting Bunkers Locals",
+      "additionalNeeded": true,
+      "video_id": "6664d4ced22b3a3c97bf1bc0",
+      "start_time": 12.0,
+      "end_time": 45.0,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664d4ced22b3a3c97bf1bc0/13.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093612Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=4e6bec099a668689beb59d6329b9068556709ac5352dab643ab0b76b9f930c3b",
+      "filename": "compressed_20220926-1107-C5944_Proxy.MP4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664d4cdfa78353268100d92/stream/a971a6c3-30cf-45c8-b169-09e23c6ea2ee.m3u8"
+    },
+    {
+      "shotNumber": "Shot 44",
+      "metadata": "Historical Footage Images Swiss Defense Strategies",
+      "searchTerm": "Historical Footage Images Swiss Defense Strategies",
+      "additionalNeeded": true,
+      "video_id": "6664b913d22b3a3c97bf18f5",
+      "start_time": 278.61666666667304,
+      "end_time": 284.533333333344,
+      "thumbnail_url": "https://project-one-thumbnail.s3.us-west-2.amazonaws.com/6664b913d22b3a3c97bf18f5/279.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAYRWJPOVHW6XGLKFV%2F20240609%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240609T093614Z&X-Amz-Expires=604799&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=82ed4ac00af750881ae95168b86636177c7d4095f3d55f89e86f795c1b868445",
+      "filename": "OperationSwitzerland_1960_Nr0936_resized.mp4",
+      "video_url": "https://deuqpmn4rs7j5.cloudfront.net/6664a52b937ce44a0402bafc/6664b912e6fb7df29de0efcc/stream/a73fd2d4-fe49-4692-9e4b-7e17a28e3006.m3u8"
+    }
+  ]
+}
