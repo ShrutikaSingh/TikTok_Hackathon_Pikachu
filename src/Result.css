@@ -1,0 +1,27 @@
+.result {
+    margin-top: 60px;
+    width:800px;
+}
+
+.result__resultTitle {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.result__title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+
+
+
+

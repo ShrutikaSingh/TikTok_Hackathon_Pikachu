@@ -1,0 +1,13 @@
+.video {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.video__reactPlayer {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+

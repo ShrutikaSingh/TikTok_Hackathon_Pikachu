@@ -1,0 +1,88 @@
+.inputForm{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    width: 381px;
+    margin-top: 30px;
+}
+
+.inputForm__title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.inputForm__form {
+    margin-top: 20px;
+    width: 381px;
+}
+
+.inputForm__form__textarea {
+    margin-top: 30px;
+    width: 365px;
+    height: 106px;
+    border: 1px solid #D4D5D2;
+    padding: 12px 8px 12px 8px;
+    resize: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.inputForm__form__button {
+    margin-top: 30px;
+    background-color: #0028FC;
+    width: 381px;
+    height: 44px;
+    top: 600px;
+    left: 529px;
+    padding: 10px 12px 10px 12px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.inputForm__form__button:disabled {
+    cursor:not-allowed;
+}
+
+.inputForm__form__button:hover:enabled {
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.inputForm_form_radioWrapper {
+    margin-top: 15px;
+}
+
+.inputForm__form__radio {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.inputForm__form__warningMessageWrapper {
+    margin-top: 10px;
+    display: flex;
+    align-items:left; /* Align items vertically */
+}
+
+.inputForm__form__warningMessageWrapper__warningMessage {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F44336
+}
+
+label {
+    font-size: large;
+}
