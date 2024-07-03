@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useQuery } from "@tanstack/react-query";
 import { keys } from "./keys";
 import apiConfig from "./apiConfig";
@@ -70,27 +71,6 @@ export function useGenerate(prompt: string, videoId: string, enabled: boolean) {
   });
 }
 
-export function useGenerateTitleTopicHashtag(types: string, videoId:string, enabled:boolean) {
-  console.log('here at api hooks', videoId)
-  return useQuery({
-    queryKey: [keys.VIDEOS, "gist", videoId],
-    queryFn: async () => {
-      if (!enabled) {
-        return null;
-      }
-
-      const response = await apiConfig.SERVER.post(`/videos/${videoId}/gist`, {
-        data: { types: Array.from(types) },
-      });
-      console.log('here at api hooks2 ', response)
-      const respData = response.data;
-      return respData;
-    },
-    enabled: enabled,
-  });
-}
-
-
 export function useGetTask(taskId: string) {
   return useQuery<Task, Error, Task, [string, string]>({
     queryKey: [keys.TASK, taskId],
@@ -111,5 +91,106 @@ export function useGetTask(taskId: string) {
         : 5000;
     },
     refetchIntervalInBackground: true,
+  });
+}
+
+
+export function useGenerateTitleTopicHashtag(types: string, videoId:string, enabled:boolean) {
+  console.log('here at api hooks', videoId)
+  return useQuery({
+    queryKey: [keys.VIDEOS, "gist", videoId],
+    queryFn: async () => {
+      if (!enabled) {
+        return null;
+      }
+
+      const response = await apiConfig.SERVER.post(`/videos/${videoId}/gist`, {
+        data: { types: Array.from(types) },
+      });
+      console.log('here at api hooks2 ', response)
+      const respData = response.data;
+      return respData;
+    },
+    enabled: enabled,
+  });
+}
+
+export function useGenerateSummary(data, videoId, enabled) {
+  return useQuery({
+    queryKey: [keys.VIDEOS, "summarize", videoId],
+    queryFn: async () => {
+      if (!enabled) {
+        return null;
+      }
+
+      const response = await apiConfig.SERVER.post(
+        `/videos/${videoId}/summarize`,
+        { data }
+      );
+      const respData = response.data;
+      return respData;
+    },
+    enabled: enabled,
+  });
+}
+
+export function useSearchClip(data, videoId, enabled) {
+  console.log('here at search hook video id & inputdata', videoId, data)
+  return useQuery({
+    queryKey: [keys.VIDEOS, "search", videoId],
+    queryFn: async () => {
+      if (!enabled) {
+        return null;
+      }
+      console.log('here11 at hit api',)
+      const response = await apiConfig.SERVER.post(
+        `/videos/${videoId}/search`,
+        { data }
+      );
+      const respData = response.data;
+      console.log('here 11 at api search hook response', respData)
+      return respData;
+    },
+    enabled: enabled,
+  });
+}
+
+
+
+export function useGenerateChapters(data, videoId, enabled) {
+  return useQuery({
+    queryKey: [keys.VIDEOS, "chapters", videoId],
+    queryFn: async () => {
+      if (!enabled) {
+        return null;
+      }
+
+      const response = await apiConfig.SERVER.post(
+        `/videos/${videoId}/summarize`,
+        { data }
+      );
+      const respData = response.data;
+      return respData;
+    },
+    enabled: enabled,
+  });
+}
+
+export function useGenerateHighlights(data, videoId, enabled) {
+  return useQuery({
+    queryKey: [keys.VIDEOS, "highlights", videoId],
+    queryFn: async () => {
+      if (!enabled) {
+        return null;
+      }
+
+      const response = await apiConfig.SERVER.post(
+        `/videos/${videoId}/summarize`,
+        { data }
+      );
+      const respData = response.data;
+      return respData;
+    },
+    enabled: enabled,
   });
 }

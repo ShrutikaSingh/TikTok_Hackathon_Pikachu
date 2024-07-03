@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React, { useEffect } from "react";
 import { useQueryClient } from "@tanstack/react-query";
-import "./Result.css";
+import "./HashTagResult.css";
 import { useGenerateTitleTopicHashtag } from "./common/apiHooks";
 import { keys } from "./common/keys";
 import { ErrorBoundary } from "./common/ErrorBoundary";

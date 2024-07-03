@@ -37,6 +37,7 @@
 .inputForm__form__checkboxes__wrapper__checkbox {
     width: 12.8px;
     height: 12.8px;
+    background-color: #0028FC;
     margin-right: 8px;
     padding: 0;
   }
@@ -48,7 +49,7 @@
 .inputForm__form__checkboxes__wrapper__checkbox:checked {
     width: 12.8px;
     height: 12.8px;
-    accent-color: #0028FC;
+    accent-color: #0028FC ;
     }
 
 .inputForm__form__button {

@@ -11,6 +11,8 @@ import { ErrorBoundary } from "./common/ErrorBoundary";
 import apiConfig from "./common/apiConfig";
 import ErrorFallback from "./common/ErrorFallback";
 import { GenerateTitlesAndHashtags } from "./GenerateHashTag";
+import { SummarizeVideo } from "./Summarize/SummarizeVideo";
+import { SearchVideo } from "./Summarize/SearchVideo";
 function App() {
   const { data: videos, refetch: refetchVideos, isLoading, isError, error } = useGetVideos(apiConfig.INDEX_ID);
   const queryClient = useQueryClient();
@@ -40,16 +42,26 @@ function App() {
         <div className="app">
           {videos?.data ? (
             <>
+            
             <GenerateSocialPosts
               index={apiConfig.INDEX_ID}
               videoId={videos.data[0]?._id || null}
               refetchVideos={refetchVideos}
             />
+            <SummarizeVideo index={apiConfig.INDEX_ID}
+                  videoId={videos.data[0]?._id || null}
+                  refetchVideos={refetchVideos}/>
                 <GenerateTitlesAndHashtags
                   index={apiConfig.INDEX_ID}
                   videoId={videos.data[0]?._id || null}
                   refetchVideos={refetchVideos}
                 />
+
+<SearchVideo
+              index={apiConfig.INDEX_ID}
+              videoId={videos.data[0]?._id || null}
+              refetchVideos={refetchVideos}
+            />
           </>
           ) : (
             <ErrorFallback error={new Error("No videos data available")} />

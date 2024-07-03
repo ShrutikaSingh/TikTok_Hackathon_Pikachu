@@ -199,3 +199,55 @@ app.post("/videos/:videoId/gist", async (request, response, next) => {
     return next({ status, message });
   }
 });
+
+/** Summarize a video */
+app.post("/videos/:videoId/summarize", async (request, response, next) => {
+  const videoId = request.params.videoId;
+  let type = request.body.data;
+
+  try {
+    const options = {
+      method: "POST",
+      url: `${API_BASE_URL}/summarize`,
+      headers: { ...HEADERS, accept: "application/json" },
+      data: { ...type, video_id: videoId },
+    };
+    const apiResponse = await axios.request(options);
+    response.json(apiResponse.data);
+  } catch (error) {
+    const status = error.response?.status || 500;
+    const message =
+      error.response?.data?.message || "Error Summarizing a Video";
+    return next({ status, message });
+  }
+});
+
+/** Serach a video */
+app.post("/videos/:videoId/search", async (next) => {
+  try {
+    const options = {
+      method: "POST",
+      url: `${API_BASE_URL}/search`,
+      headers: { ...HEADERS, accept: "application/json" },
+      data: {
+        index_id: "6664e4cee6fb7df29de0f595",
+        query_text: "green dress",
+        group_by: "clip",
+        search_options: "visual",
+        threshold: "low",
+        page_limit: 12
+      },
+    };
+    console.log('at api', options)
+    const apiResponse = await axios.request(options);
+ 
+    console.log('at response', JSON.stringify(apiResponse))
+    response.json(apiResponse.data);
+  } catch (error) {
+    console.log('at error', JSON.stringify(error))
+    const status = error.response?.status || 500;
+    const message =
+      error.response?.data?.message || "Error Seraching a Video";
+    return next({ status, message });
+  }
+});
