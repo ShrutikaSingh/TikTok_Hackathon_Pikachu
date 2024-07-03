@@ -135,20 +135,33 @@ export function useGenerateSummary(data, videoId, enabled) {
 }
 
 export function useSearchClip(data, videoId, enabled) {
-  console.log('here at search hook video id & inputdata', videoId, data)
+  console.log('useSearchClip hook:', { videoId, data });
+
   return useQuery({
     queryKey: [keys.VIDEOS, "search", videoId],
     queryFn: async () => {
       if (!enabled) {
         return null;
       }
-      console.log('here11 at hit api',)
+
+      const requestData = {
+        index_id: "6684d37f7e3a05b242e8b1d8",
+        query_text: data.queryText,
+        group_by: "clip",
+        search_options: "visual",
+        threshold: "low",
+        page_limit: 12,
+      };
+
+      console.log('Sending request payload:', requestData);
+
       const response = await apiConfig.SERVER.post(
         `/videos/${videoId}/search`,
-        { data }
+        requestData
       );
+
       const respData = response.data;
-      console.log('here 11 at api search hook response', respData)
+      console.log('API search response:', respData);
       return respData;
     },
     enabled: enabled,

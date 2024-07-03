@@ -1,32 +1,45 @@
 // @ts-nocheck
 import React, { useState, useEffect } from "react";
-import { useQueryClient } from "@tanstack/react-query";
-import { useSearchClip } from "../common/apiHooks"; // Assuming you've defined useSearchClip in apiHooks
-import { keys } from "../common/keys";
+import axios from "axios";
 import LoadingSpinner from "../common/LoadingSpinner";
 import WarningIcon from "../svg/warning.svg";
 
-export const SearchVideo = ({ index, videoId, refetchVideos }) => {
-  const queryClient = useQueryClient();
-
+export const SearchVideo = ({ indexId }) => {
   const [queryText, setQueryText] = useState("");
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [showCheckWarning, setShowCheckWarning] = useState(false);
+  const [searchResult, setSearchResult] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+  const [isError, setIsError] = useState(false);
+  const [error, setError] = useState(null);
 
-  const { data: searchResult, isLoading, isError, error } = useSearchClip(
-    { queryText },
-    videoId,
-    isSubmitted
-  );
+  // Debugging log for the search result
+  console.log('searchResult', searchResult);
 
-  console.log('searchResult', index)
-  const handleSearch = () => {
+  const axiosInstance = axios.create({
+    baseURL: 'http://localhost:4000', // Replace with your backend server's address
+  });
+
+  const handleSearch = async () => {
     if (!queryText) {
       setShowCheckWarning(true);
       return;
     }
+
     setIsSubmitted(true);
     setShowCheckWarning(false);
+    setIsLoading(true);
+    setIsError(false);
+
+    try {
+      const response = await axiosInstance.post(`/test/search`, { queryText });
+      setSearchResult(response.data);
+    } catch (error) {
+      setIsError(true);
+      setError(error);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleInputChange = (event) => {
@@ -34,20 +47,15 @@ export const SearchVideo = ({ index, videoId, refetchVideos }) => {
   };
 
   useEffect(() => {
-    const fetchData = async () => {
-        console.log('here11 at trying to hit api')
-      await queryClient.invalidateQueries({
-        queryKey: [keys.VIDEOS, 'search', videoId],
-      });
-    };
-    fetchData();
-
-
-  }, [ videoId, queryClient]);
+    if (indexId) {
+      setIsSubmitted(false);
+      setSearchResult(null);
+    }
+  }, [indexId]);
 
   return (
     <div className="summarizeVideo">
-      <h1 className="summarizeVideo__appTitle">Summarize a Youtube Video</h1>
+      <h1 className="summarizeVideo__appTitle">Search in a Youtube Video</h1>
       {showCheckWarning && (
         <div className="summarizeVideo__warningMessageWrapper">
           <img
@@ -67,11 +75,9 @@ export const SearchVideo = ({ index, videoId, refetchVideos }) => {
         placeholder="Enter query text"
       />
       <button onClick={handleSearch}>Search</button>
-      {isLoading && <LoadingSpinner />} 
+      {isLoading && <LoadingSpinner />}
       {isError && <p>Error: {error.message}</p>}
-      {searchResult && (
-        <p>{JSON.stringify(searchResult)}</p> 
-      )}
+      {searchResult && <p>{JSON.stringify(searchResult)}</p>}
     </div>
   );
 };

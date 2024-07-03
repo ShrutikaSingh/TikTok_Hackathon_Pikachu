@@ -58,9 +58,9 @@ function App() {
                 />
 
 <SearchVideo
-              index={apiConfig.INDEX_ID}
-              videoId={videos.data[0]?._id || null}
-              refetchVideos={refetchVideos}
+              indexId={apiConfig.INDEX_ID}
+              // videoId={videos.data[0]?._id || null}
+              // refetchVideos={refetchVideos}
             />
           </>
           ) : (

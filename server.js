@@ -50,6 +50,76 @@ const HEADERS = {
   "x-api-key": TWELVE_LABS_API_KEY,
 };
 
+const ffmpeg = require('fluent-ffmpeg');
+const ffmpegPath = require('ffmpeg-static');
+const fs = require('fs');
+const path = require('path');
+
+ffmpeg.setFfmpegPath(ffmpegPath);
+
+const videoFilePath = '/Users/206819985/Desktop/summer_hackathon/generate-social-posts/dhoni.mp4'; // Replace with your video file path
+const outputFilePath = '/Users/206819985/Desktop/summer_hackathon/generate-social-posts/finalClip/output-video.mp4'; // Replace with desired output file path
+
+const timestamps = [
+  { start: 126.13333333332922, end: 151.23333333332735 },
+  { start: 176.29999999999256, end: 198.29999999999256 },
+  { start: 98.04166666666517, end: 121.06666666666293 }
+];
+
+// Function to create a single clip
+const createClip = (inputFile, start, end, outputFile) => {
+  return new Promise((resolve, reject) => {
+    ffmpeg(inputFile)
+      .setStartTime(start)
+      .setDuration(end - start)
+      .output(outputFile)
+      .on('end', () => resolve(outputFile))
+      .on('error', (err) => reject(err))
+      .run();
+  });
+};
+
+// Main function to combine clips
+const combineClips = async () => {
+  console.log('here')
+  try {
+    const clipsDir = path.join(__dirname, 'clips');
+    if (!fs.existsSync(clipsDir)) {
+      fs.mkdirSync(clipsDir);
+    }
+
+    const clipFiles = await Promise.all(
+      timestamps.map((ts, index) => {
+        const clipPath = path.join(clipsDir, `clip-${index + 1}.mp4`);
+        return createClip(videoFilePath, ts.start, ts.end, clipPath);
+      })
+    );
+
+    const mergedVideo = ffmpeg();
+
+    clipFiles.forEach((clip) => {
+      mergedVideo.addInput(clip);
+    });
+
+    mergedVideo
+      .on('end', () => {
+        console.log('All clips have been merged successfully');
+        // Clean up temporary clip files
+        clipFiles.forEach((file) => fs.unlinkSync(file));
+      })
+      .on('error', (err) => {
+        console.error('Error merging clips:', err);
+      })
+      .mergeToFile(outputFilePath, clipsDir);
+
+  } catch (error) {
+    console.error('Error processing video:', error);
+  }
+};
+
+combineClips();
+
+
 /** Get videos */
 app.get("/indexes/:indexId/videos", async (request, response, next) => {
   const params = {
@@ -188,8 +258,9 @@ app.post("/videos/:videoId/gist", async (request, response, next) => {
       headers: { ...HEADERS, accept: "application/json" },
       data: { ...types, video_id: videoId },
     };
+    console.log('at gits',JSON.stringify(options))
     const apiResponse = await axios.request(options);
-    console.log('at api call2', apiResponse)
+    console.log('at api call2',JSON.stringify(apiResponse))
     response.json(apiResponse.data);
   } catch (error) {
     console.log('at api call3 error', apiResponse)
@@ -222,32 +293,74 @@ app.post("/videos/:videoId/summarize", async (request, response, next) => {
   }
 });
 
-/** Serach a video */
-app.post("/videos/:videoId/search", async (next) => {
+const semanticSearchVideos = async (query, indexId, apiKey) => {
+  const url = "https://api.twelvelabs.io/v1.2/search";
+
+  const payload = {
+    search_options: ["visual", "conversation", "text_in_video", "logo"],
+    adjust_confidence_level: 0.5,
+    group_by: "clip",
+    threshold: "high",
+    sort_option: "score",
+    operator: "or",
+    conversation_option: "semantic",
+    page_limit: 10,
+    query: query,
+    index_id: indexId
+  };
+
+  const headers = {
+    accept: "application/json",
+    "x-api-key": apiKey,
+    "Content-Type": "application/json"
+  };
+
+  return axios.post(url, payload, { headers });
+};
+
+app.post("/test/search", async (req, res, next) => {
   try {
-    const options = {
-      method: "POST",
-      url: `${API_BASE_URL}/search`,
-      headers: { ...HEADERS, accept: "application/json" },
-      data: {
-        index_id: "6664e4cee6fb7df29de0f595",
-        query_text: "green dress",
-        group_by: "clip",
-        search_options: "visual",
-        threshold: "low",
-        page_limit: 12
-      },
-    };
-    console.log('at api', options)
-    const apiResponse = await axios.request(options);
- 
-    console.log('at response', JSON.stringify(apiResponse))
-    response.json(apiResponse.data);
+    const { queryText } = req.body;
+    const apiKey = 'tlk_2J9FYEQ17NTGQ32Y7RKR53YW2N3N'; // Replace with your actual API key
+    const indexId = '6684d37f7e3a05b242e8b1d8'; // Replace with your actual index ID
+
+    console.log('Incoming search request:', { queryText, indexId });
+
+    const apiResponse = await semanticSearchVideos(queryText, indexId, apiKey);
+
+    console.log('API response:', JSON.stringify(apiResponse.data));
+    res.json(apiResponse.data);
   } catch (error) {
-    console.log('at error', JSON.stringify(error))
+    console.log('API error:', JSON.stringify(error));
     const status = error.response?.status || 500;
-    const message =
-      error.response?.data?.message || "Error Seraching a Video";
+    const message = error.response?.data?.message || "Error Searching a Video";
     return next({ status, message });
   }
 });
+
+// app.post("/videos/:videoId/search", async (req, res, next) => {
+//   try {
+//     console.log('Incoming search request:', req.body);
+
+//     const options = {
+//       method: "POST",
+//       url: `${API_BASE_URL}/search`,
+//       headers: { ...HEADERS, accept: "application/json" },
+//       data: req.body, // Assuming the request payload is already correctly formed by the client
+//     };
+
+//     console.log('Sending request to external API:', options);
+
+//     const apiResponse = await axios.request(options);
+
+//     console.log('API response:', JSON.stringify(apiResponse.data));
+//     res.json(apiResponse.data);
+//   } catch (error) {
+//     console.log('API error:', JSON.stringify(error));
+//     const status = error.response?.status || 500;
+//     const message = error.response?.data?.message || "Error Searching a Video";
+//     return next({ status, message });
+//   }
+// });
+
+
