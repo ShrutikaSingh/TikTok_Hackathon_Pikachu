@@ -213,7 +213,7 @@ export const InputForm: React.FC<InputFormProps> = ({
           type="submit"
           disabled={isSubmitted}
         >
-          Generate
+          Generate Full Post
         </button>{" "}
       </form>
     </div>

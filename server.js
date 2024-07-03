@@ -173,3 +173,29 @@ app.get("/tasks/:taskId", async (request, response, next) => {
     return next({ status, message });
   }
 });
+
+
+/** Generate gist for Hashtags and title of a video */
+app.post("/videos/:videoId/gist", async (request, response, next) => {
+ 
+  const videoId = request.params.videoId;
+  console.log('at api call1', videoId)
+  let types = request.body.data;
+  try {
+    const options = {
+      method: "POST",
+      url: `${API_BASE_URL}/gist`,
+      headers: { ...HEADERS, accept: "application/json" },
+      data: { ...types, video_id: videoId },
+    };
+    const apiResponse = await axios.request(options);
+    console.log('at api call2', apiResponse)
+    response.json(apiResponse.data);
+  } catch (error) {
+    console.log('at api call3 error', apiResponse)
+    const status = error.response?.status || 500;
+    const message =
+      error.response?.data?.message || "Error Generating Gist of a Video";
+    return next({ status, message });
+  }
+});

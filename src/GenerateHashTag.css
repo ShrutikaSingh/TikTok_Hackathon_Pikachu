@@ -1,16 +1,16 @@
-.GenerateSocialPosts {
+.GenerateTitlesAndHashtags {
     display: flex;
     flex-direction: column;
     align-items: left;
     gap: 15px;
 }
 
-.GenerateSocialPosts__appTitle {
+.GenerateTitlesAndHashtags__appTitle {
     font-size: 32px;
     font-weight: 500;
 }
 
-.GenerateSocialPosts__videoTitle {
+  .GenerateTitlesAndHashtags__videoTitle {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -18,7 +18,7 @@
     text-align: left;
 }
 
-.GenerateSocialPosts__warningMessageWrapper__warningMessage {
+  .GenerateTitlesAndHashtags__warningMessageWrapper__warningMessage {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -27,12 +27,12 @@
     color: #0028FC;
 }
 
-.GenerateSocialPosts__warningMessageWrapper {
+.GenerateTitlesAndHashtags__warningMessageWrapper {
     display: flex;
     align-items: left; /* Align items vertically */
   }
 
-.GenerateSocialPosts__uploadMessageWrapper {
+.GenerateTitlesAndHashtags__uploadMessageWrapper {
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
@@ -47,7 +47,8 @@
     margin-right: auto;
 }
 
-.GenerateSocialPosts__uploadMessageWrapper__message {
+
+.GenerateTitlesAndHashtags__uploadMessageWrapper__message {
     display: flex;
     flex-direction: column;
     justify-content: left;

@@ -10,13 +10,7 @@ import { useGetVideos } from "./common/apiHooks";
 import { ErrorBoundary } from "./common/ErrorBoundary";
 import apiConfig from "./common/apiConfig";
 import ErrorFallback from "./common/ErrorFallback";
-
-/** App that generates the written summary, chapters, and highlights of a video
- *
- * App -> GenerateSocialPosts
- *
- */
-
+import { GenerateTitlesAndHashtags } from "./GenerateHashTag";
 function App() {
   const { data: videos, refetch: refetchVideos, isLoading, isError, error } = useGetVideos(apiConfig.INDEX_ID);
   const queryClient = useQueryClient();
@@ -45,11 +39,18 @@ function App() {
     
         <div className="app">
           {videos?.data ? (
+            <>
             <GenerateSocialPosts
               index={apiConfig.INDEX_ID}
               videoId={videos.data[0]?._id || null}
               refetchVideos={refetchVideos}
             />
+                <GenerateTitlesAndHashtags
+                  index={apiConfig.INDEX_ID}
+                  videoId={videos.data[0]?._id || null}
+                  refetchVideos={refetchVideos}
+                />
+          </>
           ) : (
             <ErrorFallback error={new Error("No videos data available")} />
           )}

@@ -43,7 +43,7 @@
 }
 
 .videoFileUploadForm_errorMessage {
-    color: var(--TL-Red-500, #F44336);
+    color: var(--TL-Red-500, #0028FC);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

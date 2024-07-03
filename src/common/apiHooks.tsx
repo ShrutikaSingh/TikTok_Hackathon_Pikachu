@@ -70,6 +70,27 @@ export function useGenerate(prompt: string, videoId: string, enabled: boolean) {
   });
 }
 
+export function useGenerateTitleTopicHashtag(types: string, videoId:string, enabled:boolean) {
+  console.log('here at api hooks', videoId)
+  return useQuery({
+    queryKey: [keys.VIDEOS, "gist", videoId],
+    queryFn: async () => {
+      if (!enabled) {
+        return null;
+      }
+
+      const response = await apiConfig.SERVER.post(`/videos/${videoId}/gist`, {
+        data: { types: Array.from(types) },
+      });
+      console.log('here at api hooks2 ', response)
+      const respData = response.data;
+      return respData;
+    },
+    enabled: enabled,
+  });
+}
+
+
 export function useGetTask(taskId: string) {
   return useQuery<Task, Error, Task, [string, string]>({
     queryKey: [keys.TASK, taskId],
