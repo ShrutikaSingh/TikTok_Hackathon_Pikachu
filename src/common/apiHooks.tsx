@@ -5,7 +5,7 @@ import apiConfig from "./apiConfig";
 import { Task } from "./types"
 import axios from "axios";
 const axiosInstance = axios.create({
-  baseURL: "https://summer-hackthon-18l80988f-shrutikas-projects-aecc15b0.vercel.app/", // Replace with your backend server's address
+  baseURL: process.env.REACT_APP_SERVER_URL, // Replace with your backend server's address
 });
 
 export function useGetVideos(indexId: string | undefined) {
