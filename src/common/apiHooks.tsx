@@ -3,6 +3,10 @@ import { useQuery } from "@tanstack/react-query";
 import { keys } from "./keys";
 import apiConfig from "./apiConfig";
 import { Task } from "./types"
+import axios from "axios";
+const axiosInstance = axios.create({
+  baseURL: "https://summer-hackthon-18l80988f-shrutikas-projects-aecc15b0.vercel.app/", // Replace with your backend server's address
+});
 
 export function useGetVideos(indexId: string | undefined) {
   return useQuery({
@@ -11,18 +15,10 @@ export function useGetVideos(indexId: string | undefined) {
       try {
         if (!indexId) return Error;
         console.log('API URL 1', JSON.stringify(apiConfig.SERVER))
-        console.log('Api URL 2', await apiConfig.SERVER.get(
-          `${apiConfig.INDEXES_URL}/${indexId}/videos`,
-          {
-            params: { page_limit: apiConfig.PAGE_LIMIT },
-          }
-        ))
-        const response = await apiConfig.SERVER.get(
-          `${apiConfig.INDEXES_URL}/${indexId}/videos`,
-          {
-            params: { page_limit: apiConfig.PAGE_LIMIT },
-          }
-        );
+        console.log('Api URL 2', await apiConfig.SERVER)
+     
+        const response = await axiosInstance.get(`indexes/${indexId}/videos`);
+        console.log('Api get video responce', response)
         return response.data;
       } catch (error) {
         return error;
