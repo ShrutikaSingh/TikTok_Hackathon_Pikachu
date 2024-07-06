@@ -10,6 +10,13 @@ export function useGetVideos(indexId: string | undefined) {
     queryFn: async () => {
       try {
         if (!indexId) return Error;
+        console.log('API URL 1', JSON.stringify(apiConfig.SERVER))
+        console.log('Api URL 2', await apiConfig.SERVER.get(
+          `${apiConfig.INDEXES_URL}/${indexId}/videos`,
+          {
+            params: { page_limit: apiConfig.PAGE_LIMIT },
+          }
+        ))
         const response = await apiConfig.SERVER.get(
           `${apiConfig.INDEXES_URL}/${indexId}/videos`,
           {
