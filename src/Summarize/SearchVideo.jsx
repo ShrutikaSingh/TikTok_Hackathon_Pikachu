@@ -18,8 +18,10 @@ export const SearchVideo = ({ indexId }) => {
   const [fileIndexId, setFileIndexId] = useState(1)
   const [processedVideo, setProcessedVideo] = useState(null); // State to store processed video URL
 
+  // TODOOOOO
   const axiosInstance = axios.create({
-    baseURL: "http://localhost:4000", // Replace with your backend server's address
+    //baseURL: "http://localhost:4000", // Replace with your backend server's address
+    baseURL: process.env.REACT_APP_SERVER_URL,
   });
 
   const handleSearch = async () => {
@@ -36,9 +38,9 @@ export const SearchVideo = ({ indexId }) => {
     try {
       const response = await axiosInstance.post(`/video/search`, { queryText });
       setSearchResult(response.data);
-      console.log('response data', response.data)
-      console.log('fileindexid42', response?.data?.search_pool?.index_id)
-      setFileIndexId(response?.data?.search_pool?.index_id)
+      console.log('response data', response.data[0]?.video_id)
+      console.log('fileindexid42', response.data[0]?.video_id)
+      setFileIndexId(response.data[0]?.video_id)
     } catch (error) {
       setIsError(true);
       setError(error);
@@ -48,7 +50,8 @@ export const SearchVideo = ({ indexId }) => {
   };
 
   const extractTimestamps = (data) => {
-    return data.data.map((item) => ({
+    console.log('data main react', data)
+    return data.map((item) => ({
       start: item.start,
       end: item.end,
     }));
