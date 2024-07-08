@@ -22,12 +22,13 @@
   color: #61dafb;
 }
 
+/* //here */
 body {
-  background: #F0F3FF url('../public/Frame\ 3091.png');
+  background: #F0F3FF url('../public/123.jpg');
   background-repeat: space;
   background-attachment: fixed;
 
-  background-size: 300px;
+  background-size: 2000px;
   padding: 30px;
 }
 
