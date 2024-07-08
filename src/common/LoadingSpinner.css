@@ -1,8 +1,8 @@
 .loadingSpinner {
     margin: 0.2rem;
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     height: 100%;
   }
 

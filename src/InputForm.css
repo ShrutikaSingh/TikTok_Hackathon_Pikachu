@@ -1,8 +1,8 @@
 .inputForm{
     display: flex;
     flex-direction: column;
-    align-items: left;
-    text-align: left;
+    align-items: center;
+    text-align: center;
     width: 381px;
     margin-top: 30px;
 }
@@ -31,7 +31,7 @@
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0px;
-    text-align: left;
+    text-align: center;
 }
 
 .inputForm__form__button {
@@ -40,7 +40,7 @@
     width: 381px;
     height: 44px;
     top: 600px;
-    left: 529px;
+    center: 529px;
     padding: 10px 12px 10px 12px;
     border: none;
     font-weight: 500;
@@ -70,16 +70,16 @@
 .inputForm__form__warningMessageWrapper {
     margin-top: 10px;
     display: flex;
-    align-items:left; /* Align items vertically */
+    align-items:center; /* Align items vertically */
 }
 
 .inputForm__form__warningMessageWrapper__warningMessage {
-    margin-left: 5px;
+    margin-center: 5px;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     color: #0028FC;
 }
 

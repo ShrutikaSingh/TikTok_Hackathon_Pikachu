@@ -1,8 +1,8 @@
 .videoFileUploadForm {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    text-align: left;
+    align-items: center;
+    text-align: center;
     gap: 15px;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .videoFileUploadForm__form__button {
-    margin-left: 8px;
+    margin-center: 8px;
     width: 83px;
     height: 36px;
     padding: 0 12px;

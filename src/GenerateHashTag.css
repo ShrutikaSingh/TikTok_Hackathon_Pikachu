@@ -1,7 +1,7 @@
 .GenerateTitlesAndHashtags {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     gap: 15px;
 }
 
@@ -15,7 +15,7 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
 }
 
   .GenerateTitlesAndHashtags__warningMessageWrapper__warningMessage {
@@ -23,27 +23,27 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     color: #0028FC;
 }
 
 .GenerateTitlesAndHashtags__warningMessageWrapper {
     display: flex;
-    align-items: left; /* Align items vertically */
+    align-items: center; /* Align items vertically */
   }
 
 .GenerateTitlesAndHashtags__uploadMessageWrapper {
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
-    justify-content: left;
+    justify-content: center;
     min-width: 20rem;
     height: 3.4375rem;
     padding: 0.3rem 0.75rem;
     gap: 0.5rem;
     border: 1px solid #006F33;
     background: #FFEDEC;
-    margin-left: auto;
+    margin-center: auto;
     margin-right: auto;
 }
 
@@ -51,7 +51,7 @@
 .GenerateTitlesAndHashtags__uploadMessageWrapper__message {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     flex: 1 0 0;
     align-self: stretch;
     font-style: normal;

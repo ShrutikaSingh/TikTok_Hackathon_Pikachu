@@ -14,13 +14,13 @@ import montageData from "./montageData.json";
 // @ts-ignore
 const TimelineItem = ({ item }) => {
   const itemWidth = (item.end - item.start) * 100; // Calculate width based on duration
-  const itemLeft = item.start * 100; // Calculate left position based on start time
+  const itemcenter = item.start * 100; // Calculate center position based on start time
 
   return React.createElement(
     'div',
     {
       className: `${item.type === "thumbnails" ? "h-40" : "h-15"} bg-gray-700 rounded flex items-center justify-center`,
-      style: { width: `${itemWidth}px`, left: `${itemLeft}px`, position: "relative" }
+      style: { width: `${itemWidth}px`, center: `${itemcenter}px`, position: "relative" }
     },
     item.type === "thumbnails" ? React.createElement(
       'div',

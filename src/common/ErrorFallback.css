@@ -2,8 +2,8 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
-    align-items: left;
-    justify-content: left;
+    align-items: center;
+    justify-content: center;
     min-width: 35rem;
     max-width: 45rem;
     height: 3.4375rem;
@@ -11,7 +11,7 @@
     gap: 0.5rem;
     border: 1px solid  #F44336;
     background: #FFEDEC;
-    margin-left: auto;
+    margin-center: auto;
     margin-right: auto;
   }
 
@@ -25,8 +25,8 @@
 
 .errorFallback__resetButtonWrapper {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
     margin-top: 2rem;
   }
 
@@ -35,7 +35,7 @@
     background: #F44336;
     color: white;
     border: none;
-    text-align: left;
+    text-align: center;
     margin-bottom: 3rem;
   }
 

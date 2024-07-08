@@ -4,7 +4,7 @@ import { keys } from "./common/keys";
 import "./InputForm.css";
 import { Video } from "./common/types";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faTiktok } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faBlog } from '@fortawesome/free-solid-svg-icons';
@@ -124,7 +124,7 @@ export const InputForm: React.FC<InputFormProps> = ({
             disabled={isSubmitted}
             onChange={handleRadioChange}
           />
-          <FontAwesomeIcon icon={faInstagram} /> Instagram
+          <FontAwesomeIcon icon={faTiktok} /> TikTok
         </label>{" "}
         <label>
           <input

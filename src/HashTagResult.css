@@ -1,7 +1,7 @@
 .result {
     margin-top: 60px;
     width:800px;
-    text-align: left;
+    text-align: center;
 }
 
 .result__title, .result__topics, .result__hashtags {
@@ -13,7 +13,7 @@
     font-weight: 500;
     line-height: 44px;
     letter-spacing: 0.5px;
-    text-align: left;
+    text-align: center;
     margin-bottom: 60px;
 }
 
@@ -37,14 +37,14 @@
 
 /* .result__chapters__wrapper__chapter, .result__highlights__wrapper__highlight {
     display: flex;
-    align-items: left;
+    align-items: center;
     margin-bottom: 10px;
 }
 
 .result__chapters__wrapper__chapter__wrapper, .result__highlights__wrapper__highlight__timeSummary {
-    margin-left: 10px;
+    margin-center: 10px;
     width: 1000px;
-    text-align: left;
+    text-align: center;
 }
 
 .result__chapters__wrapper__chapter__wrapper__summary, .result__highlights__wrapper__highlight__timeSummary__summary {
@@ -52,7 +52,7 @@
     font-weight: 400;
     line-height: 28px;
     letter-spacing: 0px;
-    text-align: left;
+    text-align: center;
     }
 
 .result__chapters__wrapper__chapter__wrapper_titleTime {
@@ -65,7 +65,7 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0px;
-    text-align: left;
+    text-align: center;
 }
 
 .result__chapters__wrapper__chapter__wrapper_titleTime_time, .result__highlights__wrapper__highlight__timeSummary__time {
@@ -73,6 +73,6 @@
     font-weight: 500;
     line-height: 20px;
     letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     color: #FF0099;
 } */

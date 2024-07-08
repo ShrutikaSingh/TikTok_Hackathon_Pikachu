@@ -1,7 +1,7 @@
 .App {
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-color: #f0f0f0;
 }
@@ -24,7 +24,7 @@ input {
 button {
   padding: 10px;
   font-size: 16px;
-  margin-left: 10px;
+  margin-center: 10px;
 }
 
 .video-container {
