@@ -1,7 +1,8 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "./Video.css";
-
+import { faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 interface Props {
   url: string;
   start?: number;
@@ -28,7 +29,10 @@ const Video: React.FC<Props> = ({ url, start, end, width, height, tiktok }) => {
       />
       {tiktok && (
         <div className="video__actions">
-          <button onClick={handleTikTokShare}>Share on TikTok</button>
+          <button onClick={handleTikTokShare}>
+          <FontAwesomeIcon icon={faTiktok} style={{ color: "#2ce2d9" }} /> 
+          <span style={{ color: "#2ce2d9" }}>Share</span>
+           </button>
         </div>
       )}
     </div>
