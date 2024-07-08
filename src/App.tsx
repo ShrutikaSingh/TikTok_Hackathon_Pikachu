@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Editor from './yohans/Editor.jsx'
 import { useEffect, Suspense } from "react";
 import { useQueryClient } from "@tanstack/react-query";
 import {keys} from "./common/keys";
@@ -66,7 +65,6 @@ function App() {
           ) : (
             <ErrorFallback error={new Error("No videos data available")} />
           )}
-           <Editor/>
         </div>
       </Suspense>
     </ErrorBoundary>
