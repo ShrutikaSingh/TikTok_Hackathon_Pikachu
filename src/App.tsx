@@ -23,7 +23,7 @@ function App() {
   }, [queryClient]);
 
   if (!apiConfig.INDEX_ID) {
-    return <ErrorFallback error={new Error("Please provide index Id")} />;
+    return <ErrorFallback error={new Error("Please provide index TEST Id")} />;
   }
 
   if (isLoading) {
